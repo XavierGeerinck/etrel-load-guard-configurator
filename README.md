@@ -1,7 +1,7 @@
 # Etrel Load Guard Configurator for macOS, Linux and Windows (open source)
 
 `lgconf` is an open-source, cross-platform replacement for Etrel's Windows-only
-**Load Guard Configurator 1.4**. Etrel Load Guard is the energy meter that feeds the
+[**Load Guard Configurator 1.4**](https://etrel.atlassian.net/wiki/spaces/EKC/pages/3485632839/Load+Guard+Configuration+software). Etrel Load Guard is the energy meter that feeds the
 dynamic load management (load balancing) of Etrel EV chargers. With `lgconf` you can:
 
 - discover Load Guard devices on your network;
@@ -103,6 +103,16 @@ against hand-written vectors and against replies captured from a real Load Guard
 - **Not yet exercised on hardware:** the write commands. Their encoding comes straight
   from the official configurator's code and passes the tests and simulator, but try
   `--dry-run` first and keep the official tool nearby the first time.
+
+## Official Etrel documentation
+
+- [Load Guard Configuration software](https://etrel.atlassian.net/wiki/spaces/EKC/pages/3485632839/Load+Guard+Configuration+software):
+  the official Windows configurator that this tool replaces, and how Etrel describes
+  the Load Guard setup.
+- [INCH user manual](https://etrel.atlassian.net/wiki/spaces/EKC/pages/3371074217/INCH+User+manual):
+  setting up the INCH chargers that the Load Guard reports to, including load management.
+- [All INCH firmware versions](https://etrel.atlassian.net/wiki/spaces/EKC/pages/5064097900/All+INCH+Firmware+versions):
+  charger firmware releases and release notes.
 
 ## How it was reverse engineered
 
